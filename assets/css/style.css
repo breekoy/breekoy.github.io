@@ -1,0 +1,26 @@
+/*breekoy 2015*/
+
+/*make the image circular*/
+.circular-image{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+/*add a little bit margin*/
+.container-fluid{
+	margin-top: 20px;
+}
+
+/*make everything centered*/
+.centered{
+	text-align: center;
+}
+
+#section2{
+	margin: 0 auto;
+	width: 50%;
+	height: 100%;
+}
