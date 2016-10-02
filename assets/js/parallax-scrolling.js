@@ -13,4 +13,8 @@ $(window).scroll(function(){
 		'transform':'translate(0px, '+ wScroll*1.5 +'%)'
 	});
 
+	$('#social-media-icons').css({
+		'transform': 'translate(0px, '+ wScroll * 1.2 +'%)'
+	});
+
 });

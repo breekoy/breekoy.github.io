@@ -4,8 +4,8 @@ var section = $('.section');
 var autoConsumeViewport = function(){
 	var height = $(window).height();
 	var width = $(window).width();
-	var reducewidth = width * 0.0128;
-	width = width - reducewidth;
+	var reducewidth = width * 0.01;
+	/*width = width - reducewidth;*/
 	return [height, width]
 }
 
