@@ -13,4 +13,11 @@ $(window).scroll(function(){
 		'transform':'translate(0px, '+ wScroll*1.5 +'%)'
 	});
 
+<<<<<<< HEAD
+=======
+	$('#social-media-icons').css({
+		'transform': 'translate(0px, '+ wScroll * 1.2 +'%)'
+	});
+
+>>>>>>> dd73afb1cf52973166320c5d16ae8de23d236f15
 });

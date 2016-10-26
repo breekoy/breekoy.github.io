@@ -94,6 +94,24 @@ body{
 
 .section{
 	background-color: #FFFFFF;
+<<<<<<< HEAD
+=======
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.section-box{
+	width: 960px;
+	margin: 10px;
+	padding: 20px;
+}
+
+#social-media-icons a {
+	color: #FFFFFF;
+>>>>>>> dd73afb1cf52973166320c5d16ae8de23d236f15
 }
 
 .banner-box{
