@@ -1,0 +1,67 @@
+body{
+	background-image: url("../img/caspar-rubin-224229.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+.circular-image{
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.main-card{
+	text-align: center;
+	display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.main-card-middle{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.main-card-inner{
+	margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+}
+
+.main-card, .main-card a{
+	color: #FFFFFF;
+}
+
+.card{
+	background-color: #000000;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1px) 
+  and (max-device-width: 750px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.main-card h1{
+  		font-size: 500%;
+  	}
+  	.main-card p{
+  		font-size: 200%;
+  	}
+
+  	.circular-image{
+	width: 75%;
+	height: 75%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+}
