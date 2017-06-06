@@ -1,0 +1,36 @@
+/*animation keyframe for Chrome, Safari and Opera*/
+@-webkit-keyframes pulse {
+      0% {background-color: #BF1E4B;}
+     15% {background-color: #00A0B1;}
+     30% {background-color: #A700AE;}
+     40% {background-color: #643EBF;}
+     50% {background-color: #DC572E;}
+     70% {background-color: #00A600;}
+     85% {background-color: #0A5BC4;}
+     100% {background-color: #FF150A;}
+}
+
+/*animation keyframe standard syntax (for Firefox and IE10+)*/
+@keyframes pulse{
+	 0% {background-color: #BF1E4B;}
+     15% {background-color: #00A0B1;}
+     30% {background-color: #A700AE;}
+     40% {background-color: #643EBF;}
+     50% {background-color: #DC572E;}
+     70% {background-color: #00A600;}
+     85% {background-color: #0A5BC4;}
+     100% {background-color: #FF150A;}
+}
+
+body{
+	/*Chrome, Safari, Opena*/
+	-webkit-animation: pulse 100s infinite alternate;
+    
+    /*Firefox and IE10+*/
+    animation-name:pulse;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    background-color: #BF1E4B;
+}
