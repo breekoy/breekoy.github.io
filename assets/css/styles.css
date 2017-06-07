@@ -1,32 +1,43 @@
+section{
+	margin: 0!important;
+	width: 100%;
+}
+
 .circular-image{
 	width: 30%;
 	height: 30%;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
+	overflow: hidden;
 }
 
-.main-card{
+.hero{
 	text-align: center;
 	display: table;
     position: absolute;
     height: 100%;
-    width: 98%;
+    width: 100%;
 }
 
-.main-card-middle{
+.hero-middle{
 	display: table-cell;
     vertical-align: middle;
 }
 
-.main-card-inner{
+.hero-inner{
 	margin-left: auto;
     margin-right: auto; 
     width: 50%;
 }
 
-.main-card, .main-card a{
+.hero, .hero a{
 	color: #FFFFFF;
+}
+
+.sections{
+	background-color: #FFFFFF;
+	color: #000000;
 }
 
 .card{
@@ -38,18 +49,19 @@
   and (min-device-width: 1px) 
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
-  	.main-card h1{
+  	.hero h1{
   		font-size: 500%;
   	}
-  	.main-card p{
+  	.hero p{
   		font-size: 200%;
   	}
 
   	.circular-image{
-	width: 75%;
-	height: 75%;
+	width: 40%;
+	height: 40%;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
+	z-index: -1;
 }
 }
