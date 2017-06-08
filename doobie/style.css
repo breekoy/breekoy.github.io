@@ -1,5 +1,7 @@
 html{
-	background-image: url('http://filipinojournal.com/wp-content/uploads/2012/12/willie.jpg');
+	background-image: url('nyan-wil.gif');
+	background-repeat: no-repeat;
+	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 }
