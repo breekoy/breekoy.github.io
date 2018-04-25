@@ -12,6 +12,14 @@ section{
 	overflow: hidden;
 }
 
+#heroSection, .sections{
+	height:100vh;
+}
+
+#heroSection h2{
+	font-family: 'Fira Sans', sans-serif;
+}
+
 .hero{
 	text-align: center;
 	display: table;
@@ -35,22 +43,33 @@ section{
 	color: #FFFFFF;
 }
 
+#skillSetSection{
+	display: flex;
+}
+
 .sections{
 	background-color: #FFFFFF;
 }
 
 .sections h1{
 	color: #000000;
+	margin-top: 25px;
+	font-family: 'Fira Sans', sans-serif;
 }
 
-.panel {
+.skills-card {
 	text-align: center;
-	display: inline-block;
+	display: inline-flex;
+	width: 33%;
 	padding: 5px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.3em;
 }
 
-#experienceSection .panel{
-	width: 33%;
+.experience-card{
+	margin-bottom: 5px;
+	text-align: center;
 }
 
 #experienceSection a{
@@ -62,50 +81,73 @@ section{
 	color: #000000;
 }
 
+.social{
+	margin-top: 20px;
+}
+
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 1px) 
-  and (max-device-width: 750px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  	.hero h1{
-  		font-size: 500%;
+  and (max-device-width: 750px) {
+  	.hero h2{
+  		font-size: 125%;
   	}
-  	.hero p{
-  		font-size: 200%;
+  	.sections{
+  		height:auto;
   	}
 
   	.circular-image{
-	width: 40%;
-	height: 40%;
+	width: 60%;
+	height: 60%;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	z-index: -1;
 	}
+
+	.skills-card {
+		text-align: center;
+		display: inline-flex;
+		width: 100%;
+		padding: 5px;
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 1em;
+	}
 }
 
 @media only screen 
-  and (min-device-width: 1px) 
-  and (max-device-width: 1199px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  	.sections h1{
-		font-size: 400%;
-	}
+  and (min-device-width: 751px) 
+  and (max-device-width: 1199px) {
 
-	.panel-title{
+	.card-title{
 		font-size: 250%;
 	}
 	.panel-body{
 		font-size: 200%;
 	}
 
+	.sections{
+  		height:auto;
+  	}
+
   	#experienceSection .panel{
 	width: 100%;
+	}
+
+	.skills-card {
+		text-align: center;
+		display: inline-flex;
+		width: 33%;
+		padding: 5px;
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 1em;
 	}
 }
 
 @media only screen and (max-width: 1199px){
 	#experienceSection .panel{
-	width: 100%;
+	width: auto;
 	}
 }

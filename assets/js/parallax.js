@@ -5,14 +5,10 @@ $(window).scroll(function(){
 	});
 
 	$('#greetings').css({
-		'transform': 'translate(0px, '+ wScroll/4 +'px)'
-	});
-
-	$('#socials').css({
 		'transform': 'translate(0px, '+ wScroll/5 +'px)'
 	});
 
-	$('#description').css({
-		'transform': 'translate(0px, '+ wScroll/6 +'px)'
+	$('.social').css({
+		'transform': 'translate(0px, '+ wScroll/4 +'px)'
 	});
 });

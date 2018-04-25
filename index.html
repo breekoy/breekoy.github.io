@@ -1,56 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
 	<title>Hi! I'm Bree.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/background-pulse.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-  <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:500" rel="stylesheet">
 </head>
 <body>
 	<section id="heroSection">
     <div class="hero">
   		<div class="hero-middle">
   			<div class="hero-inner">
-  				<img id="me" src="assets/img/me.jpg" class="circular-image">
-    			<h1 id="greetings">Hi! I am Bree.</h1>
-    			<p id="socials">
-    							<a href="https://facebook.com/breekoymcwall" target="_blank"><i class="fa fa-facebook"></i></a>
-    							&nbsp;&nbsp;
-    							<a href="https://instagram.com/breekoy" target="_blank"><i class="fa fa-instagram"></i></a>
-    							&nbsp;&nbsp;
-    							<a href="https://twitter.com/breekoy" target="_blank"><i class="fa fa-twitter"></i></a>
-    							&nbsp;&nbsp;
-    							<a href="https://github.com/breekoy" target="_blank"><i class="fa fa-github"></i></a>
-    							&nbsp;&nbsp;
-    							<a href="https://www.linkedin.com/in/bree-dingding-55b834153/" target="_blank"><i class="fa fa-linkedin"></i></a>
-    			</p>
-    			<p id="description">Converting coffee into code.</p>
-  			</div>
+          <img id="me" src="assets/img/me.jpg" class="circular-image">
+          <p>
+            <a href="https://facebook.com/breekoymcwall" target="_blank"> <i class="fab fa-facebook-f social"></i></a>
+             &nbsp;&nbsp;
+             <a href="https://instagram.com/breekoy" target="_blank"><i class="fab fa-instagram social"></i></a>
+             &nbsp;&nbsp;
+             <a href="https://twitter.com/breekoy" target="_blank"><i class="fab fa-twitter social"></i></a>
+            &nbsp;&nbsp;
+            <a href="https://github.com/breekoy" target="_blank"><i class="fab fa-github social"></i></a>
+            &nbsp;&nbsp;
+            <a href="mailto:mcwall.breekoy@gmail.com" target="_blank"><i class="fas fa-envelope social"></i></a>
+            &nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/bree-dingding-55b834153/" target="_blank"><i class="fab fa-linkedin-in social"></i></a>    
+          </p>
+    			<h2 id="greetings">Bree Dingding<span class="element"></span></h2>
+  		</div>
   		</div>
   	</div>
   </section><div class="sections">
   <section id="skillSetSection">
     <div class="container">
       <h1>Skills</h1>
-        <div class="panel panel-default">
-          <div class="panel-body">C#.NET</div>
+        <div class="card skills-card" style="background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('assets/img/c-sharp-bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <div class="card-body">C#</div>
         </div>
-        <div class="panel panel-default">
-          <div class="panel-body">Angular.js</div>
+        <div class="card skills-card" style="background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('assets/img/angularjs-bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <div class="card-body">Angular.js</div>
         </div>
-        <div class="panel panel-default">
-          <div class="panel-body">PHP/Laravel</div>
+        <div class="card skills-card" style="background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('assets/img/php-laravel-bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <div class="card-body">PHP/Laravel</div>
         </div>
-        <div class="panel panel-default">
-          <div class="panel-body">jQuery</div>
+        <div class="card skills-card" style="background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('assets/img/jquery-bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <div class="card-body">JavaScript/jQuery</div>
         </div>
-        <div class="panel panel-default">
-          <div class="panel-body">MySQL</div>
+        <div class="card skills-card" style="background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('assets/img/mysql-bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <div class="card-body">MySQL</div>
         </div>
-        <div class="panel panel-default">
-          <div class="panel-body">Git</div>
+        <div class="card skills-card" style="background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('assets/img/git-bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <div class="card-body">Git</div>
         </div>
 
     </div>
@@ -59,40 +61,40 @@
   <section id="experienceSection">
     <div class="container">
       <h1>Experience</h1>
-        <div class="panel panel-primary">
-          <div class="panel-title"><i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<b><a href="http://coredev.ph" target="_blank">coreDev Solutions Inc.</a></b></div>
+        <div class="card bg-dark experience-card">
+          <div class="card-title"><i class="fas fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<b><a href="http://coredev.ph" target="_blank">coreDev Solutions Inc.</a></b></div>
           <div class="panel-body">
-            <i class="fa fa-code" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;<b>Back-end Developer </b></span>
-            <p></p>
-            <p><i class="fa fa-clock-o" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;March 2016 - Present</p></span>
+            <i class="fa fa-code" aria-hidden="true"></i><span>&nbsp;<b>C# Developer </b></span> &nbsp;&nbsp;
+            <i class="far fa-calendar-alt" aria-hidden="true"></i><span>&nbsp;<b>March 2016 - Present</b></span><p></p>
             <p>Developing and Maintaining Add-on Systems to an existing Accounting System used in several banks and cooperatives.</p>
           </div>
         </div>
 
-        <div class="panel panel-primary">
-          <div class="panel-title"><i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<b><a href="http://coredev.ph" target="_blank">coreDev Solutions Inc.</a></b></div>
+        <div class="card bg-dark experience-card">
+          <div class="card-title"><i class="fas fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<b><a href="http://coredev.ph" target="_blank">coreDev Solutions Inc.</a></b></div>
           <div class="panel-body">
-            <i class="fa fa-code" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;<b>Intern (Web Developer)</b></span>
-            <p></p>
-            <p><i class="fa fa-clock-o" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;October 2015 - March 2016</p></span>
+            <i class="fa fa-code" aria-hidden="true"></i><span>&nbsp;<b>Intern (Web Developer)</b></span>&nbsp;&nbsp;
+            <i class="far fa-calendar-alt" aria-hidden="true"></i><span>&nbsp;<b>October 2015 - March 2016</b></p></span>
             <p>Developed an Itinerary System in order to make the company's employees work simplier.</p>
           </div>
         </div>
 
-        <div class="panel panel-primary">
-          <div class="panel-title"><i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<b><a href="http://cebu.gov.ph" target="_blank">Cebu Provincial Government</a></b></div>
+        <div class="card bg-dark experience-card">
+          <div class="card-title"><i class="fas fa-briefcase" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<b><a href="http://cebu.gov.ph" target="_blank">Cebu Provincial Government</a></b></div>
           <div class="panel-body">
-            <i class="fa fa-server" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;<b>Intern (Technical Support Assistant)</b></span>
-            <p></p>
-            <p><i class="fa fa-clock-o" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;November 2014 - March 2015</p></span>
+            <i class="fas fa-server" aria-hidden="true"></i><span>&nbsp;<b>Intern (Technical Support Assistant)</b></span>&nbsp;&nbsp;
+            <i class="far fa-calendar-alt" aria-hidden="true"></i><span>&nbsp;<b>November 2014 - March 2015</b></span><p></p>
             <p>Assisted the IT staffs to maintain and repair computers, servers and other hardwares.</p>
           </div>
         </div>
     </div>
   </section>
   </div>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/js/full-screen-section.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/parallax.js"></script>
+  <script type="text/javascript" src="assets/js/typed.min.js"></script>
+  <script type="text/javascript" src="assets/js/typed-init.js"></script>
 </body>
 </html>
