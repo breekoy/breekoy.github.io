@@ -97,8 +97,14 @@
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/time-elapsed-calculator.js"></script>
   <script type="text/javascript" src="assets/js/parallax.js"></script>
   <script type="text/javascript" src="assets/js/typed.min.js"></script>
   <script type="text/javascript" src="assets/js/typed-init.js"></script>
+  <script type="text/javascript">
+    document.getElementById("experience-time-elapsed-1").innerHTML = " (" + getElapsedTime(new Date(2016, 2, 1), new Date()) + ")";
+    document.getElementById("experience-time-elapsed-2").innerHTML = " (" + getElapsedTime(new Date(2015, 9, 1), new Date(2016, 2, 12)) + ")";
+    document.getElementById("experience-time-elapsed-3").innerHTML = " (" + getElapsedTime(new Date(2014, 10, 1), new Date(2015, 2, 5)) + ")";
+  </script>
 </body>
 </html>
