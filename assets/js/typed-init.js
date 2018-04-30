@@ -5,7 +5,9 @@ var typed = new Typed('.element', {
   	"&nbsp;lives and works in Cebu City, Ph.",
   	"&nbsp;makes awesome apps.",
   	"&nbsp;is a C# Dev.",
-  	"&nbsp;can be a Web Developer too!"],
+  	"&nbsp;can be a Web Developer too!",
+  	"&nbsp;loves coffee.",
+  	"'s hobby is taking photographs."],
   typeSpeed: 70,
   loop:true
 });
