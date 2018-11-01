@@ -1,11 +1,9 @@
 var typed = new Typed('.element', {
   strings: [
-  	". YUP! That's really my name.", 
-  	"'s site is cool! Right?",
+  	". Yup! That's really my name.", 
   	"&nbsp;lives and works in Cebu City, Ph.",
   	"&nbsp;makes awesome apps.",
-  	"&nbsp;is a C# Dev.",
-  	"&nbsp;can be a Web Developer too!",
+  	"&nbsp;is a C# and PHP dev.",
   	"&nbsp;loves coffee.",
   	"'s hobby is taking photographs."],
   typeSpeed: 70,

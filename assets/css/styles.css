@@ -55,9 +55,9 @@ section{
 .hero{
 	text-align: center;
 	display: table;
-    position: absolute;
+    position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .hero-middle{
@@ -75,13 +75,8 @@ section{
 	color: #FFFFFF;
 }
 
-#skillSetSection{
-	display: flex;
-}
-
 .sections{
 	background-color: #FFFFFF;
-	padding-bottom: 30px;
 }
 
 .sections h1{
@@ -90,12 +85,22 @@ section{
 	font-family: 'Fira Sans', sans-serif;
 }
 
+.sections section{
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+#skillSetSection{
+	display: inline-flex;
+}
+
 .skills-card {
 	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) );
-	text-align: center;
 	display: inline-flex;
-	width: 33%;
+	text-align: center;
+	width: 49.8%;
 	padding: 5px;
+	margin: 5px 0px;
 	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
@@ -147,13 +152,18 @@ section{
   	.hero h2{
   		font-size: 125%;
   	}
+
+  	.hero-inner{
+  		width: 70%;
+  	}
+
   	.sections{
   		height:auto;
   	}
 
   	.circular-image{
-		width: 60%;
-		height: 60%;
+		width: 75%;
+		height: 75%;
 		border-radius: 50%;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
@@ -226,10 +236,3 @@ section{
 	  		height:auto;
 	  	}
 	}
-
-
-@media only screen and (min-width: 1601px){
-	.sections{
-		height: 100vh;
-	}
-}
